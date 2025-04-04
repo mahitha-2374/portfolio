@@ -10,8 +10,8 @@ const About = () => {
   const imageHeight = 1000; // Maintaining the 4:5 aspect ratio
   
   // Your ImageKit.io URL (replace with your actual ImageKit URL if different)
-  const imageKitUrl = "https://ik.imagekit.io/mahitha/626975e7-ac6b-4458-8d81-a8448edac23f.jpg?updatedAt=1742230270722";
-  const profileImagePath = "/IMG_4759.jpg"; // Path to your image on ImageKit
+  const imageKitUrl = "https://ik.imagekit.io/mahitha";
+  const profileImagePath = "/626975e7-ac6b-4458-8d81-a8448edac23f.jpg?updatedAt=1742230270722"; // Path to your image on ImageKit
   
   // Construct URL with transformations
   const profileImageUrl = `${imageKitUrl}${profileImagePath}?tr=w-${imageWidth},h-${imageHeight},f-auto,q-90`;
