@@ -27,5 +27,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/adi-portfolio/", // This is important for GitHub Pages
+  base: "/portfolio/", // This is important for GitHub Pages
 });
