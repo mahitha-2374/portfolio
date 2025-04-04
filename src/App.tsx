@@ -10,7 +10,7 @@ const queryClient = new QueryClient();
 
 const App = () => {
   // Get the correct base path for GitHub Pages deployment
-  const basePath = import.meta.env.MODE === 'production' ? '/adi-portfolio' : '';
+  const basePath = import.meta.env.MODE === 'production' ? '/portfolio' : '';
 
   return (
     <QueryClientProvider client={queryClient}>
